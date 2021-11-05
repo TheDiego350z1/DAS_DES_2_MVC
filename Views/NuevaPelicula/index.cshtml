@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Nueva Película";
+    Layout = "_BackLayout";
+}
+<section class="container">
+
+    <form class="row">
+        <!--Nombre de película-->
+        <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Nombre de película</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="">
+            </div>
+        </div>
+
+        <!--Descripción de película-->
+        <div class="mb-3">
+            <label for="" class="form-label">Descripción de película</label>
+            <textarea class="form-control" id="" rows="3"></textarea>
+        </div>
+        <!--Imagen de película-->
+        <div class="mb-3">
+            <label for="" class="form-label">Imagen de película</label>
+            <input class="form-control" type="file" id="">
+        </div>
+
+        <!--Director de película-->
+        <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Director Película</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="">
+            </div>
+        </div>
+
+        <!--Guardar-->
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    </form>
+</section>
